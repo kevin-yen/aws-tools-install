@@ -1,4 +1,5 @@
-#!/bin/bash -e
+#!/bin/bash
+set -e
 
 if ! which unzip; then
     sudo apt-get update
